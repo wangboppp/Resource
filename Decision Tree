@@ -1,0 +1,21 @@
+Entropy H(s)= -p1*log(p1) - ... -pn*log(pn)
+pi is the percentage of data labeled as class ci
+
+H(s) -> 0 when pi ~0 or 1, meaning the small entropy indicate a concentrated distribution for this class.
+At each step, we calculate the H(s) and split the highest out, then repeat for the rest.
+
+Cost functions:
+Regression: sum(y - predictions)**2
+Classification: G = sum(pk *(1-pl))
+
+Advantages of CART
+Simple to understand, interpret, visualize.
+Decision trees implicitly perform variable screening or feature selection.
+Can handle both numerical and categorical data. Can also handle multi-output problems.
+Decision trees require relatively little effort from users for data preparation.
+Nonlinear relationships between parameters do not affect tree performance.
+Disadvantages of CART
+Decision-tree learners can create over-complex trees that do not generalize the data well. This is called overfitting.
+Decision trees can be unstable because small variations in the data might result in a completely different tree being generated. This is called variance, which needs to be lowered by methods like bagging and boosting.
+Greedy algorithms cannot guarantee to return the globally optimal decision tree. This can be mitigated by training multiple trees, where the features and samples are randomly sampled with replacement.
+Decision tree learners create biased trees if some classes dominate. It is therefore recommended to balance the data set prior to fitting with the decision tree.
