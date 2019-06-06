@@ -8,14 +8,35 @@ Cost functions:
 Regression: sum(y - predictions)**2
 Classification: G = sum(pk *(1-pl))
 
-Advantages of CART
-Simple to understand, interpret, visualize.
-Decision trees implicitly perform variable screening or feature selection.
-Can handle both numerical and categorical data. Can also handle multi-output problems.
-Decision trees require relatively little effort from users for data preparation.
-Nonlinear relationships between parameters do not affect tree performance.
+CART (classification and regression tree)
+  classification is dealing with discrete features.
+  regression is dealing with continuous features.
+
+Advantages of CART:
+1.Simple to understand, interpret, visualize.
+2.Decision trees implicitly perform variable 
+  screening or feature selection.
+3.Can handle both numerical and categorical data. 
+  Can also handle multi-output problems.
+4.Decision trees require relatively little effort 
+  from users for data preparation.
+5.Nonlinear relationships between parameters do 
+  not affect tree performance.
+
 Disadvantages of CART
-Decision-tree learners can create over-complex trees that do not generalize the data well. This is called overfitting.
-Decision trees can be unstable because small variations in the data might result in a completely different tree being generated. This is called variance, which needs to be lowered by methods like bagging and boosting.
-Greedy algorithms cannot guarantee to return the globally optimal decision tree. This can be mitigated by training multiple trees, where the features and samples are randomly sampled with replacement.
-Decision tree learners create biased trees if some classes dominate. It is therefore recommended to balance the data set prior to fitting with the decision tree.
+1.Decision-tree learners can create over-complex 
+  trees that overfits, and this can be solved with 
+  prunning; drop further brunches at the point of
+  validation/test accuracy starts to drop while
+  training accuracy is still pushing down.
+2. Decision trees can be unstable because small 
+  variations in the data might result in a completely 
+  different tree being generated. This is called variance, 
+  which needs to be lowered by methods like bagging and boosting.
+3.Greedy algorithms cannot guarantee to return the 
+  globally optimal decision tree. This can be mitigated 
+  by training multiple trees, where the features and 
+  samples are randomly sampled with replacement.
+4.Decision tree learners create biased trees if some 
+  classes dominate. It is therefore recommended 
+  to balance the data set prior to fitting with the decision tree.
