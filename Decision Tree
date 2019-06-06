@@ -40,3 +40,19 @@ Disadvantages of CART
 4.Decision tree learners create biased trees if some 
   classes dominate. It is therefore recommended 
   to balance the data set prior to fitting with the decision tree.
+  
+Optimize strateges:
+  1.Us validation set besides test set to evaluating prunning node.
+  2.Apply error estimation/significance testing(Chi-square test) to
+    evaluate the prunning or expanding effect.
+    Extension of Chi-square:
+      The chi-square test can be used to determine the association 
+      between categorical variables. It is based on the difference 
+      between the expected frequencies (e) and the observed 
+      frequencies (n) in one or more categories in the frequency 
+      table. The chi-square distribution returns a probability for 
+      the computed chi-square and the degree of freedom. 
+      
+      A probability of zero shows a complete dependency between two 
+      categorical variables and a probability of one means that 
+      two categorical variables are completely independent.
