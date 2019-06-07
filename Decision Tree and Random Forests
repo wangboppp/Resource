@@ -41,7 +41,7 @@ Disadvantages of CART
   classes dominate. It is therefore recommended 
   to balance the data set prior to fitting with the decision tree.
   
-Optimize strateges:
+Optimization strateges:
   1.Us validation set besides test set to evaluating prunning node.
   2.Apply error estimation/significance testing(Chi-square test) to
     evaluate the prunning or expanding effect.
@@ -51,8 +51,32 @@ Optimize strateges:
       between the expected frequencies (e) and the observed 
       frequencies (n) in one or more categories in the frequency 
       table. The chi-square distribution returns a probability for 
-      the computed chi-square and the degree of freedom. 
-      
+      the computed chi-square and the degree of freedom.       
       A probability of zero shows a complete dependency between two 
       categorical variables and a probability of one means that 
       two categorical variables are completely independent.
+      
+  3. Random forests.
+      Idea: build multiple decision trees and average multiple deep
+      decision trees, trained using different parts of the training
+      data set.
+      Realization: Bagging (bootstrap aggregating)
+        1.Take training sample from X, Y -> Xb, Yb;
+        2.Train CART fb with Xb, Yb;
+        3.Average prediction = 1/B sum(fb)
+      Note: B is the number of sample/decision trees, hyperparameter.
+      Usually B is around hundreds to thousands, optimation of B can
+      be decided using cross-validation.
+      
+      Cross-validation common types:
+      A. Exhaustive cross-validation
+        1.Exhaustive cross-validation(train/test on all possiple sets)
+        2.Leave-p-out cross-validation(use p validation and rest training)
+        3.Leave-one-out cross-validation(LOOCV) p=1
+      B. Non-exhaustive cross-validation
+        1.k-fold cross-validation (k sets with 1 valid and k-1 train sets)
+        2.Holdout method (random assign train d0 and test d1)
+        
+      
+      
+      
