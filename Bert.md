@@ -1,13 +1,13 @@
 # Bert 
-## official git: https://github.com/google-research/bert
-## Bert paper: https://arxiv.org/abs/1810.04805
-## Transfermer encoder: https://arxiv.org/pdf/1706.03762.pdf
-## bert kernels:
-1 Bert kernel: https://www.kaggle.com/yuval6967/toxic-bert-plain-vanila
-2 Bert fast: https://www.kaggle.com/abhishek/pytorch-bert-inference
-3 Bert fine tune: https://www.kaggle.com/chriscc/jigsaw-starter-blend/data
-4 Bert mini batch: https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/discussion/94779#latest-548514
-5 Inference: https://www.kaggle.com/kenkrige/bert-inference-for-upload/notebook
+* official git: https://github.com/google-research/bert
+* Bert paper: https://arxiv.org/abs/1810.04805
+* Transfermer encoder: https://arxiv.org/pdf/1706.03762.pdf
+### bert kernels:
+1. Bert kernel: https://www.kaggle.com/yuval6967/toxic-bert-plain-vanila
+1. Bert fast: https://www.kaggle.com/abhishek/pytorch-bert-inference
+1. Bert fine tune: https://www.kaggle.com/chriscc/jigsaw-starter-blend/data
+1. Bert mini batch: https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/discussion/94779#latest-548514
+1. Inference: https://www.kaggle.com/kenkrige/bert-inference-for-upload/notebook
 
 
 ## What is BERT?
