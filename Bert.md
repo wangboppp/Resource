@@ -100,16 +100,15 @@ sentence-level (e.g., SST-2), sentence-pair-level (e.g., MultiNLI), word-level
 modifications.
 
 
-### Other resource
-Bert Pretrained - https://github.com/google-research/bert
-Bert Pytorch - https://github.com/huggingface/pytorch-pretrained-BERT
-Bert Models : Base-Cased, Base-Uncased, Large-Cased, Large-Uncased, Large-Cased-WWM, Large-Uncased-WWM
-(all including Vovab) 
-Nvidia Apex - https://github.com/NVIDIA/apex 
-FastText crawl 300d 2M: https://www.kaggle.com/yekenot/fasttext-crawl-300d-2m
-glove.840B.300d: https://www.kaggle.com/takuok/glove840b300dtxt
+### Other git resource
+* Bert Pretrained - https://github.com/google-research/bert
+* Bert Pytorch - https://github.com/huggingface/pytorch-pretrained-BERT
+* Bert Models : Base-Cased, Base-Uncased, Large-Cased, Large-Uncased, Large-Cased-WWM, Large-Uncased-WWM
+* Nvidia Apex - https://github.com/NVIDIA/apex 
+* FastText crawl 300d 2M: https://www.kaggle.com/yekenot/fasttext-crawl-300d-2m
+* glove.840B.300d: https://www.kaggle.com/takuok/glove840b300dtxt
 
-Kaggle Datasets:
-https://www.kaggle.com/maxjeblick/bert-pretrained-models
-https://www.kaggle.com/gabrichy/nvidiaapex
-https://www.kaggle.com/matsuik/ppbert
+### Other Kaggle Datasets
+* https://www.kaggle.com/maxjeblick/bert-pretrained-models
+* https://www.kaggle.com/gabrichy/nvidiaapex
+* https://www.kaggle.com/matsuik/ppbert
