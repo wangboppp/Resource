@@ -8,6 +8,7 @@
 1. Bert fine tune: https://www.kaggle.com/chriscc/jigsaw-starter-blend/data
 1. Bert mini batch: https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/discussion/94779#latest-548514
 1. Inference: https://www.kaggle.com/kenkrige/bert-inference-for-upload/notebook
+1. Ensemble score: https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/discussion/93339#548194
 
 
 ## What is BERT?
@@ -97,3 +98,18 @@ NLP tasks very easily. In the paper, we demonstrate state-of-the-art results on
 sentence-level (e.g., SST-2), sentence-pair-level (e.g., MultiNLI), word-level
 (e.g., NER), and span-level (e.g., SQuAD) tasks with almost no task-specific
 modifications.
+
+
+### Other resource
+Bert Pretrained - https://github.com/google-research/bert
+Bert Pytorch - https://github.com/huggingface/pytorch-pretrained-BERT
+Bert Models : Base-Cased, Base-Uncased, Large-Cased, Large-Uncased, Large-Cased-WWM, Large-Uncased-WWM
+(all including Vovab) 
+Nvidia Apex - https://github.com/NVIDIA/apex 
+FastText crawl 300d 2M: https://www.kaggle.com/yekenot/fasttext-crawl-300d-2m
+glove.840B.300d: https://www.kaggle.com/takuok/glove840b300dtxt
+
+Kaggle Datasets:
+https://www.kaggle.com/maxjeblick/bert-pretrained-models
+https://www.kaggle.com/gabrichy/nvidiaapex
+https://www.kaggle.com/matsuik/ppbert
