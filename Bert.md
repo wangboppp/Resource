@@ -1,8 +1,8 @@
 # Bert 
-* official git: https://github.com/google-research/bert
+* Official git: https://github.com/google-research/bert
 * Bert paper: https://arxiv.org/abs/1810.04805
 * Transfermer encoder: https://arxiv.org/pdf/1706.03762.pdf
-### bert kernels:
+### BERT kaggle kernels:
 1. Bert kernel: https://www.kaggle.com/yuval6967/toxic-bert-plain-vanila
 1. Bert fast: https://www.kaggle.com/abhishek/pytorch-bert-inference
 1. Bert fine tune: https://www.kaggle.com/chriscc/jigsaw-starter-blend/data
