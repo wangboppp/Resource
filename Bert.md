@@ -122,5 +122,5 @@ Starting point Bert kernel: https://www.kaggle.com/yuval6967/toxic-bert-plain-va
 
 Fast test
   1. Inputset is 14000, vali-set is 3000, epochs = 1, seed = 620402
-    1. Batch size 36->24, metric: 0.88-0.86
-    1. gradient accumulation step 2 -> 4, metric: 0.86 -> 0.85
+    *. Batch size 36->24, metric: 0.88-0.86
+    *. gradient accumulation step 2 -> 4, metric: 0.86 -> 0.85
