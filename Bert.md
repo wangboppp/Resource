@@ -114,3 +114,13 @@ modifications.
 * https://www.kaggle.com/maxjeblick/bert-pretrained-models
 * https://www.kaggle.com/gabrichy/nvidiaapex
 * https://www.kaggle.com/matsuik/ppbert
+
+
+# Bert testing on stage 1 data
+
+Starting point Bert kernel: https://www.kaggle.com/yuval6967/toxic-bert-plain-vanila
+
+Fast test
+  1. Inputset is 14000, vali-set is 3000, epochs = 1, seed = 620402
+    1. Batch size 36->24, metric: 0.88-0.86
+    1. gradient accumulation step 2 -> 4, metric: 0.86 -> 0.85
