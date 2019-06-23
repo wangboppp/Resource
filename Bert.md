@@ -11,6 +11,8 @@
 1. Bert mini batch: https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/discussion/94779#latest-548514
 1. Inference: https://www.kaggle.com/kenkrige/bert-inference-for-upload/notebook
 1. Ensemble score: https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/discussion/93339#548194
+1. XLNet: https://github.com/zihangdai/xlnet
+1. XLNet discussion: https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/discussion/96637
 
 
 ## What is BERT?
