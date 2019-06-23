@@ -124,3 +124,11 @@ Starting point Bert kernel: https://www.kaggle.com/yuval6967/toxic-bert-plain-va
   ### Inputset is 14000, vali-set is 3000, epochs = 1, seed = 620402
     * Batch size 36->24, metric: 0.88-0.86
     * gradient accumulation step 2 -> 4, metric: 0.86 -> 0.85
+    
+## Other reference
+  * Bert fine tune paper: https://arxiv.org/pdf/1905.05583.pdf
+  * Prompt Unix command: https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/
+  * Fastai Bear: https://www.kaggle.com/tenffe/fastai-bert-train-baseline/notebook
+  * RNN with sequence bucketing: https://www.kaggle.com/bminixhofer/speed-up-your-rnn-with-sequence-bucketing/notebook
+  * Bert auther discussion: https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/discussion/91982
+  * Bert output iterative epochs: https://www.kaggle.com/tenffe/fastai-bert-train-baseline/output
