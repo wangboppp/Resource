@@ -134,3 +134,4 @@ Starting point Bert kernel: https://www.kaggle.com/yuval6967/toxic-bert-plain-va
   * RNN with sequence bucketing: https://www.kaggle.com/bminixhofer/speed-up-your-rnn-with-sequence-bucketing/notebook
   * Bert auther discussion: https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/discussion/91982
   * Bert output iterative epochs: https://www.kaggle.com/tenffe/fastai-bert-train-baseline/output
+  * Bed news XLNet: https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/discussion/96674
