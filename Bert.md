@@ -130,7 +130,7 @@ Starting point Bert kernel: https://www.kaggle.com/yuval6967/toxic-bert-plain-va
 ## Other reference
   * Bert fine tune paper: https://arxiv.org/pdf/1905.05583.pdf
   * Prompt Unix command: https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/
-  * Fastai Bear: https://www.kaggle.com/tenffe/fastai-bert-train-baseline/notebook
+  * Fastai Bert: https://www.kaggle.com/tenffe/fastai-bert-train-baseline/notebook
   * RNN with sequence bucketing: https://www.kaggle.com/bminixhofer/speed-up-your-rnn-with-sequence-bucketing/notebook
   * Bert auther discussion: https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/discussion/91982
   * Bert output iterative epochs: https://www.kaggle.com/tenffe/fastai-bert-train-baseline/output
